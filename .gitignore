@@ -1,0 +1,16 @@
+# Banco local (gerado em tempo de execução)
+study.db
+study.db-journal
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Editores / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

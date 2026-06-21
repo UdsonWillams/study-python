@@ -1,0 +1,310 @@
+{
+  "slug": "python-do-zero",
+  "title": "Python do Zero",
+  "description": "Uma trilha completa para quem está começando: do entendimento do que é programação até escrever funções em Python. Cada lição é curta e prática — e você escreve código de verdade direto no navegador.",
+  "position": 0,
+  "modules": [
+    {
+      "slug": "hello-world",
+      "title": "Módulo 0 — Hello World: bem-vindo ao mundo da programação",
+      "summary": "Antes do código: o que é programar, como é o mundo de TI, o mercado de trabalho e o papel da IA. Termina com seu primeiro programa rodando.",
+      "position": 0,
+      "topics": [
+        {
+          "slug": "o-que-e-programacao",
+          "title": "O que é programação?",
+          "position": 0,
+          "lesson_md": "# O que é programação?\n\nProgramar é **ensinar o computador a seguir uma sequência de passos** para resolver um problema. O computador é rápido e obediente, mas não é esperto: ele faz **exatamente** o que você manda — nem mais, nem menos.\n\nPense numa **receita de bolo**:\n\n1. Pré-aqueça o forno\n2. Misture os ingredientes\n3. Despeje na forma\n4. Asse por 40 minutos\n\nUm programa é isso: uma receita escrita numa linguagem que o computador entende. Essa \"receita\" se chama **código**, e cada passo é uma **instrução**.\n\n## Por que isso é poderoso?\n\nPorque o computador executa essas receitas **milhões de vezes por segundo**, sem cansar e sem errar. Programar é automatizar tarefas: desde somar uma planilha gigante até recomendar o próximo vídeo que você vai assistir.\n\n## O que você vai aprender nesta trilha\n\n- Pensar em passos (lógica)\n- Escrever esses passos em **Python**, uma das linguagens mais usadas e amigáveis do mundo\n- Resolver pequenos problemas de verdade\n\n> 💡 Não precisa decorar nada agora. A ideia é entender as ideias aos poucos, praticando.\n\nClique em **Marcar como lido** quando terminar e siga para o próximo tópico."
+        },
+        {
+          "slug": "mundo-de-ti",
+          "title": "O mundo de TI: áreas e carreiras",
+          "position": 1,
+          "lesson_md": "# O mundo de TI: áreas e carreiras\n\nProgramar é a porta de entrada, mas a área de **Tecnologia da Informação (TI)** é enorme. Conhecer os caminhos ajuda você a descobrir do que mais gosta.\n\n## Principais áreas\n\n- **Desenvolvimento (Dev)** — criar sites, apps e sistemas.\n  - *Front-end*: a parte que o usuário vê (telas, botões).\n  - *Back-end*: a parte que roda nos servidores (regras, banco de dados).\n  - *Full-stack*: um pouco dos dois.\n- **Dados** — analisar e tirar conclusões de grandes volumes de informação (*Data Analyst*, *Data Scientist*, *Engenheiro de Dados*).\n- **Infraestrutura / DevOps / Cloud** — manter os sistemas no ar, servidores e nuvem.\n- **Segurança da Informação** — proteger sistemas contra ataques.\n- **QA / Testes** — garantir que o software funciona como deveria.\n- **Inteligência Artificial / Machine Learning** — criar sistemas que aprendem com dados.\n\n## E o Python nisso tudo?\n\nO Python é uma das linguagens **mais versáteis**: é forte em **Dados**, **IA**, **back-end**, automação e scripts. Aprender Python abre porta para várias dessas áreas.\n\n> 🎯 Não precisa escolher uma área agora. Comece pela base (programação) — a escolha vem naturalmente com a prática."
+        },
+        {
+          "slug": "mercado-de-trabalho",
+          "title": "Mercado de trabalho e o dia a dia",
+          "position": 2,
+          "lesson_md": "# Mercado de trabalho e o dia a dia\n\n## Como é o dia a dia de quem programa?\n\nAo contrário do que muita gente imagina, programar **não é digitar código o dia inteiro**. Boa parte do trabalho é:\n\n- **Entender o problema** antes de escrever qualquer linha.\n- **Conversar** com colegas e pessoas que vão usar o sistema.\n- **Ler código** que já existe (você lê muito mais do que escreve!).\n- **Procurar e corrigir erros** (os famosos *bugs*).\n- **Aprender continuamente** — a área muda o tempo todo.\n\n## O mercado\n\n- A demanda por profissionais de tecnologia segue **alta** no mundo todo.\n- É uma das áreas com mais oportunidades de **trabalho remoto**.\n- Existem vagas para todos os níveis: *júnior* (início), *pleno* e *sênior*.\n- Você **não precisa de diploma** para começar — portfólio e projetos contam muito.\n\n## Habilidades que importam (além de código)\n\n- **Lógica** e resolução de problemas\n- **Comunicação** (explicar ideias com clareza)\n- **Curiosidade** e vontade de aprender\n- **Paciência** para depurar erros\n\n> 💪 A melhor forma de entrar no mercado é **praticando e construindo coisas** — exatamente o que você vai fazer aqui."
+        },
+        {
+          "slug": "programar-na-era-da-ia",
+          "title": "Programar na era da IA",
+          "position": 3,
+          "lesson_md": "# Programar na era da IA\n\nVocê já deve ter ouvido: *\"a IA vai substituir os programadores\"*. A realidade é mais interessante.\n\n## A IA como copiloto\n\nFerramentas de IA (como assistentes de código) hoje ajudam a:\n\n- Sugerir trechos de código\n- Explicar o que um código faz\n- Encontrar erros\n- Escrever testes e documentação\n\nIsso é como ter um **copiloto**: muito útil, mas **você continua sendo o piloto**. É você quem decide para onde ir.\n\n## O que muda\n\n- Tarefas repetitivas ficam mais rápidas.\n- Escrever código \"boilerplate\" (repetitivo) fica mais fácil.\n- Aprender fica mais acessível — dá para perguntar e receber explicações.\n\n## O que continua essencial (e a IA não faz por você)\n\n- **Entender o problema de verdade** — a IA não sabe o que o seu usuário precisa.\n- **Julgar se a resposta da IA está certa** — ela erra, e com confiança!\n- **Pensar na arquitetura** e nas decisões importantes.\n- **Saber o básico** — você precisa entender o que o código faz para confiar (ou desconfiar) dele.\n\n## Conclusão\n\nAprender os fundamentos **não perdeu o valor — ganhou**. Quem entende a base usa a IA como turbo. Quem não entende, fica refém dela.\n\n> 🤖 Use a IA para aprender mais rápido, mas **entenda cada passo**. É isso que esta trilha vai te dar."
+        },
+        {
+          "slug": "por-que-python-e-hello-world",
+          "title": "Por que Python? + seu primeiro código",
+          "position": 4,
+          "lesson_md": "# Por que Python? + seu primeiro código\n\n## Por que Python?\n\n- **Leitura fácil**: o código parece quase inglês.\n- **Versátil**: web, dados, IA, automação, ciência...\n- **Comunidade gigante**: muita ajuda e bibliotecas prontas.\n- **Ótima primeira linguagem**: você foca em aprender a pensar, não em detalhes complicados.\n\n## A função `print()`\n\nPara mostrar algo na tela em Python, usamos a função `print()`. O que você coloca entre aspas é um **texto** (chamamos de *string*):\n\n```python\nprint(\"Olá!\")\n```\n\nIsso exibe: `Olá!`\n\n## Seu primeiro programa\n\nÉ tradição: o primeiro programa de todo programador exibe a frase **\"Hello, World!\"** (Olá, Mundo!). Faça isso agora no exercício abaixo. 🚀\n\nEscreva o código, clique em **Verificar** e veja a mágica acontecer — esse código roda Python **de verdade**, aqui no seu navegador.",
+          "exercises": [
+            {
+              "position": 0,
+              "prompt": "Escreva um programa que exiba exatamente o texto `Hello, World!` na tela usando `print()`.",
+              "starter_code": "# Use print() para exibir Hello, World!\n",
+              "test_code": "import sys, io\n_buf = io.StringIO()\n_old = sys.stdout\nsys.stdout = _buf\nexec(_student_code)\nsys.stdout = _old\n_out = _buf.getvalue().strip()\nassert _out == 'Hello, World!', f'Esperava \\'Hello, World!\\', mas a saída foi: {_out!r}'",
+              "solution": "print(\"Hello, World!\")"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "fundamentos",
+      "title": "Módulo 1 — Fundamentos",
+      "summary": "Os tijolos da linguagem: variáveis, tipos, números, textos e valores verdadeiro/falso.",
+      "position": 1,
+      "topics": [
+        {
+          "slug": "variaveis-e-tipos",
+          "title": "Variáveis e tipos",
+          "position": 0,
+          "lesson_md": "# Variáveis e tipos\n\nUma **variável** é uma caixa com nome onde guardamos um valor:\n\n```python\nnome = \"Ana\"\nidade = 25\n```\n\nUsamos o sinal `=` para **atribuir** (guardar) um valor na variável. Depois é só usar o nome:\n\n```python\nprint(nome)   # Ana\nprint(idade)  # 25\n```\n\n## Tipos básicos\n\nCada valor tem um **tipo**:\n\n- `str` (texto / *string*): `\"Ana\"`, `'Python'`\n- `int` (número inteiro): `25`, `-3`, `0`\n- `float` (número com vírgula): `3.14`, `-0.5`\n- `bool` (verdadeiro ou falso): `True`, `False`\n\nVocê pode descobrir o tipo com `type()`:\n\n```python\nprint(type(\"Ana\"))  # <class 'str'>\nprint(type(25))      # <class 'int'>\n```\n\n## Regras para nomes de variáveis\n\n- Use nomes que descrevem o conteúdo: `preco`, `total_alunos`.\n- Sem espaços (use `_`): `nome_completo`.\n- Não pode começar com número.",
+          "exercises": [
+            {
+              "position": 0,
+              "prompt": "Crie uma variável chamada `cidade` com o valor `\"São Paulo\"` e uma variável `ano` com o valor `2026`.",
+              "starter_code": "# Crie as variáveis cidade e ano\n",
+              "test_code": "assert 'cidade' in dir(), 'A variável cidade não foi criada'\nassert cidade == 'São Paulo', f'cidade deveria ser \\'São Paulo\\', mas é {cidade!r}'\nassert 'ano' in dir(), 'A variável ano não foi criada'\nassert ano == 2026, f'ano deveria ser 2026, mas é {ano!r}'",
+              "solution": "cidade = \"São Paulo\"\nano = 2026"
+            }
+          ]
+        },
+        {
+          "slug": "numeros-e-operadores",
+          "title": "Números e operadores",
+          "position": 1,
+          "lesson_md": "# Números e operadores\n\nPython é uma ótima calculadora. Operadores aritméticos:\n\n| Operador | Operação | Exemplo | Resultado |\n|---|---|---|---|\n| `+` | soma | `2 + 3` | `5` |\n| `-` | subtração | `5 - 2` | `3` |\n| `*` | multiplicação | `4 * 3` | `12` |\n| `/` | divisão | `10 / 4` | `2.5` |\n| `//` | divisão inteira | `10 // 4` | `2` |\n| `%` | resto da divisão | `10 % 3` | `1` |\n| `**` | potência | `2 ** 3` | `8` |\n\n```python\ntotal = 10 + 5 * 2   # 20 (multiplicação primeiro!)\nmedia = (8 + 6) / 2  # 7.0\n```\n\n> 💡 Assim como na matemática, `*` e `/` vêm antes de `+` e `-`. Use parênteses para mudar a ordem.\n\n## O resto (`%`) é muito útil\n\nServe para saber, por exemplo, se um número é par:\n\n```python\n8 % 2   # 0  -> par\n7 % 2   # 1  -> ímpar\n```",
+          "exercises": [
+            {
+              "position": 0,
+              "prompt": "Uma loja vende um produto por R$ 49 a unidade. Calcule o preço de 7 unidades e guarde na variável `total`.",
+              "starter_code": "preco = 49\nquantidade = 7\n# calcule total\n",
+              "test_code": "assert 'total' in dir(), 'Crie a variável total'\nassert total == 343, f'total deveria ser 343, mas é {total!r}'",
+              "solution": "preco = 49\nquantidade = 7\ntotal = preco * quantidade"
+            },
+            {
+              "position": 1,
+              "prompt": "Calcule o resto da divisão de 17 por 5 e guarde na variável `resto`.",
+              "starter_code": "# use o operador %\n",
+              "test_code": "assert 'resto' in dir(), 'Crie a variável resto'\nassert resto == 2, f'resto deveria ser 2, mas é {resto!r}'",
+              "solution": "resto = 17 % 5"
+            }
+          ]
+        },
+        {
+          "slug": "strings",
+          "title": "Strings (textos)",
+          "position": 2,
+          "lesson_md": "# Strings (textos)\n\nUma *string* é um texto, entre aspas simples `'...'` ou duplas `\"...\"`.\n\n## Juntar textos (concatenação)\n\n```python\nnome = \"Ana\"\nsaudacao = \"Olá, \" + nome + \"!\"   # \"Olá, Ana!\"\n```\n\n## f-strings (a forma moderna e prática)\n\nColoque um `f` antes das aspas e use `{}` para inserir variáveis:\n\n```python\nnome = \"Ana\"\nidade = 25\nprint(f\"{nome} tem {idade} anos\")   # Ana tem 25 anos\n```\n\n## Métodos úteis\n\n```python\ntexto = \"Python\"\nlen(texto)          # 6  (tamanho)\ntexto.upper()       # \"PYTHON\"\ntexto.lower()       # \"python\"\ntexto.replace(\"P\", \"J\")  # \"Jython\"\n\"  oi  \".strip()    # \"oi\"  (remove espaços nas pontas)\n```",
+          "exercises": [
+            {
+              "position": 0,
+              "prompt": "Dada a variável `nome`, crie uma variável `mensagem` com o texto `Bem-vindo(a), <nome>!` usando uma f-string. Ex.: se nome for `\"Ana\"`, mensagem deve ser `\"Bem-vindo(a), Ana!\"`.",
+              "starter_code": "nome = \"Ana\"\n# crie mensagem usando f-string\n",
+              "test_code": "assert 'mensagem' in dir(), 'Crie a variável mensagem'\nassert mensagem == 'Bem-vindo(a), Ana!', f'mensagem ficou: {mensagem!r}'",
+              "solution": "nome = \"Ana\"\nmensagem = f\"Bem-vindo(a), {nome}!\""
+            }
+          ]
+        },
+        {
+          "slug": "booleanos-e-comparacoes",
+          "title": "Booleanos e comparações",
+          "position": 3,
+          "lesson_md": "# Booleanos e comparações\n\nUm valor **booleano** (`bool`) só pode ser `True` (verdadeiro) ou `False` (falso). Eles aparecem quando comparamos coisas.\n\n## Operadores de comparação\n\n| Operador | Significado | Exemplo | Resultado |\n|---|---|---|---|\n| `==` | igual a | `3 == 3` | `True` |\n| `!=` | diferente de | `3 != 5` | `True` |\n| `>` | maior que | `5 > 2` | `True` |\n| `<` | menor que | `5 < 2` | `False` |\n| `>=` | maior ou igual | `5 >= 5` | `True` |\n| `<=` | menor ou igual | `4 <= 3` | `False` |\n\n> ⚠️ Cuidado: `=` **atribui** um valor; `==` **compara**. São coisas diferentes!\n\n## Combinando condições\n\n- `and` — verdadeiro se **ambos** forem verdadeiros\n- `or` — verdadeiro se **pelo menos um** for verdadeiro\n- `not` — inverte (verdadeiro vira falso)\n\n```python\nidade = 20\nidade >= 18 and idade < 60   # True\nnot (idade == 20)            # False\n```",
+          "exercises": [
+            {
+              "position": 0,
+              "prompt": "Crie uma variável `maior_de_idade` que seja `True` se a variável `idade` for maior ou igual a 18, e `False` caso contrário. Use uma comparação (não escreva True/False direto).",
+              "starter_code": "idade = 20\n# crie maior_de_idade a partir de uma comparação\n",
+              "test_code": "assert 'maior_de_idade' in dir(), 'Crie a variável maior_de_idade'\nassert maior_de_idade == True, 'Com idade 20 deveria ser True'\nidade = 15\nmaior_de_idade = idade >= 18\nassert maior_de_idade == False, 'Com idade 15 deveria ser False'",
+              "solution": "idade = 20\nmaior_de_idade = idade >= 18"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "estruturas-de-dados",
+      "title": "Módulo 2 — Estruturas de dados",
+      "summary": "Como guardar coleções de valores: listas, tuplas, conjuntos e dicionários.",
+      "position": 2,
+      "topics": [
+        {
+          "slug": "listas",
+          "title": "Listas",
+          "position": 0,
+          "lesson_md": "# Listas\n\nUma **lista** guarda vários valores em ordem, entre colchetes `[]`:\n\n```python\nfrutas = [\"maçã\", \"banana\", \"uva\"]\n```\n\n## Acessar itens (o índice começa em 0!)\n\n```python\nfrutas[0]   # \"maçã\"  (primeiro)\nfrutas[1]   # \"banana\"\nfrutas[-1]  # \"uva\"   (último)\n```\n\n## Operações comuns\n\n```python\nlen(frutas)              # 3 (quantidade)\nfrutas.append(\"pera\")    # adiciona no fim\nfrutas[0] = \"laranja\"    # troca o primeiro\nfrutas.remove(\"banana\")  # remove pelo valor\n\"uva\" in frutas          # True (verifica se existe)\n```\n\n## Fatiar (slicing)\n\n```python\nnumeros = [10, 20, 30, 40, 50]\nnumeros[1:3]   # [20, 30]  (do índice 1 até antes do 3)\nnumeros[:2]    # [10, 20]\nnumeros[2:]    # [30, 40, 50]\n```",
+          "exercises": [
+            {
+              "position": 0,
+              "prompt": "Crie uma lista chamada `cores` com os valores `\"vermelho\"`, `\"verde\"` e `\"azul\"`. Depois adicione `\"amarelo\"` ao final usando `.append()`.",
+              "starter_code": "# crie a lista cores e adicione amarelo\n",
+              "test_code": "assert 'cores' in dir(), 'Crie a lista cores'\nassert cores == ['vermelho', 'verde', 'azul', 'amarelo'], f'cores ficou: {cores!r}'",
+              "solution": "cores = [\"vermelho\", \"verde\", \"azul\"]\ncores.append(\"amarelo\")"
+            },
+            {
+              "position": 1,
+              "prompt": "Dada a lista `numeros`, guarde em `primeiro` o primeiro item e em `ultimo` o último item (use índices).",
+              "starter_code": "numeros = [3, 8, 15, 22, 41]\n# crie primeiro e ultimo\n",
+              "test_code": "assert primeiro == 3, f'primeiro deveria ser 3, mas é {primeiro!r}'\nassert ultimo == 41, f'ultimo deveria ser 41, mas é {ultimo!r}'",
+              "solution": "numeros = [3, 8, 15, 22, 41]\nprimeiro = numeros[0]\nultimo = numeros[-1]"
+            }
+          ]
+        },
+        {
+          "slug": "tuplas-e-sets",
+          "title": "Tuplas e conjuntos (set)",
+          "position": 1,
+          "lesson_md": "# Tuplas e conjuntos\n\n## Tuplas — listas que não mudam\n\nUma **tupla** é como uma lista, mas **imutável** (não pode ser alterada depois de criada). Usamos parênteses `()`:\n\n```python\nponto = (10, 20)\nponto[0]   # 10\n```\n\nUse tuplas para dados que não devem mudar (ex.: coordenadas, uma data).\n\n## Conjuntos (set) — coleção sem repetição\n\nUm **set** guarda valores **únicos** (sem duplicatas), usando chaves `{}`:\n\n```python\nnumeros = {1, 2, 2, 3, 3, 3}\nprint(numeros)   # {1, 2, 3}  (duplicatas somem)\n```\n\nÓtimo para remover repetições de uma lista:\n\n```python\nlista = [1, 1, 2, 3, 3]\nunicos = set(lista)   # {1, 2, 3}\n```\n\nOperações de conjunto:\n\n```python\na = {1, 2, 3}\nb = {3, 4, 5}\na | b   # união: {1, 2, 3, 4, 5}\na & b   # interseção: {3}\n```",
+          "exercises": [
+            {
+              "position": 0,
+              "prompt": "A lista `votos` tem valores repetidos. Crie um set chamado `opcoes` com os valores únicos dessa lista.",
+              "starter_code": "votos = [\"sim\", \"não\", \"sim\", \"sim\", \"não\", \"talvez\"]\n# crie opcoes com os valores únicos\n",
+              "test_code": "assert 'opcoes' in dir(), 'Crie o set opcoes'\nassert isinstance(opcoes, set), 'opcoes precisa ser um set'\nassert opcoes == {'sim', 'não', 'talvez'}, f'opcoes ficou: {opcoes!r}'",
+              "solution": "votos = [\"sim\", \"não\", \"sim\", \"sim\", \"não\", \"talvez\"]\nopcoes = set(votos)"
+            }
+          ]
+        },
+        {
+          "slug": "dicionarios",
+          "title": "Dicionários",
+          "position": 2,
+          "lesson_md": "# Dicionários\n\nUm **dicionário** guarda pares **chave → valor**, entre chaves `{}`. É perfeito para representar \"coisas\" com características:\n\n```python\npessoa = {\n    \"nome\": \"Ana\",\n    \"idade\": 25,\n    \"cidade\": \"Recife\"\n}\n```\n\n## Acessar e alterar valores\n\n```python\npessoa[\"nome\"]          # \"Ana\"\npessoa[\"idade\"] = 26     # altera\npessoa[\"email\"] = \"ana@x.com\"  # adiciona nova chave\n```\n\n## Métodos úteis\n\n```python\npessoa.keys()     # as chaves\npessoa.values()   # os valores\npessoa.get(\"telefone\", \"não informado\")  # valor padrão se não existir\n\"nome\" in pessoa  # True\n```\n\n> 💡 Use `.get()` quando não tem certeza se a chave existe — assim você evita erros.",
+          "exercises": [
+            {
+              "position": 0,
+              "prompt": "Crie um dicionário chamado `livro` com as chaves `\"titulo\"` (valor `\"1984\"`) e `\"autor\"` (valor `\"George Orwell\"`). Depois adicione a chave `\"ano\"` com o valor `1949`.",
+              "starter_code": "# crie o dicionário livro\n",
+              "test_code": "assert 'livro' in dir(), 'Crie o dicionário livro'\nassert livro.get('titulo') == '1984', 'titulo incorreto'\nassert livro.get('autor') == 'George Orwell', 'autor incorreto'\nassert livro.get('ano') == 1949, 'ano incorreto'",
+              "solution": "livro = {\"titulo\": \"1984\", \"autor\": \"George Orwell\"}\nlivro[\"ano\"] = 1949"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "controle-de-fluxo",
+      "title": "Módulo 3 — Controle de fluxo",
+      "summary": "Fazer o programa tomar decisões e repetir tarefas: condicionais, loops e comprehensions.",
+      "position": 3,
+      "topics": [
+        {
+          "slug": "condicionais",
+          "title": "Condicionais (if / elif / else)",
+          "position": 0,
+          "lesson_md": "# Condicionais (if / elif / else)\n\nCondicionais permitem o programa **tomar decisões**: fazer uma coisa ou outra dependendo de uma condição.\n\n```python\nidade = 20\n\nif idade >= 18:\n    print(\"Maior de idade\")\nelse:\n    print(\"Menor de idade\")\n```\n\n## A indentação importa!\n\nEm Python, o que está \"dentro\" do `if` é definido pelo **recuo** (4 espaços). Não use chaves — o recuo é a estrutura.\n\n## Vários caminhos com `elif`\n\n```python\nnota = 7\n\nif nota >= 9:\n    conceito = \"A\"\nelif nota >= 7:\n    conceito = \"B\"\nelif nota >= 5:\n    conceito = \"C\"\nelse:\n    conceito = \"D\"\n```\n\nO Python testa de cima para baixo e para no **primeiro** que for verdadeiro.",
+          "exercises": [
+            {
+              "position": 0,
+              "prompt": "Dada a variável `numero`, crie uma variável `tipo` que seja `\"par\"` se o número for par, ou `\"ímpar\"` se for ímpar. (Dica: use o operador `%`.)",
+              "starter_code": "numero = 7\n# crie a variável tipo\n",
+              "test_code": "assert 'tipo' in dir(), 'Crie a variável tipo'\nassert tipo == 'ímpar', f'7 é ímpar, mas tipo ficou {tipo!r}'\nnumero = 10\ntipo = 'par' if numero % 2 == 0 else 'ímpar'\nassert tipo == 'par', 'Falhou para número par'",
+              "solution": "numero = 7\nif numero % 2 == 0:\n    tipo = \"par\"\nelse:\n    tipo = \"ímpar\""
+            }
+          ]
+        },
+        {
+          "slug": "loops",
+          "title": "Loops (for / while)",
+          "position": 1,
+          "lesson_md": "# Loops (for / while)\n\nLoops repetem instruções — sem precisar copiar e colar.\n\n## `for` — repetir para cada item\n\n```python\nfrutas = [\"maçã\", \"banana\", \"uva\"]\nfor fruta in frutas:\n    print(fruta)\n```\n\nPara repetir um número de vezes, use `range()`:\n\n```python\nfor i in range(5):     # 0, 1, 2, 3, 4\n    print(i)\n\nrange(1, 4)    # 1, 2, 3\nrange(0, 10, 2)  # 0, 2, 4, 6, 8 (de 2 em 2)\n```\n\n## `while` — repetir enquanto uma condição for verdadeira\n\n```python\ncontador = 0\nwhile contador < 3:\n    print(contador)\n    contador = contador + 1\n```\n\n> ⚠️ Cuidado com o *loop infinito*: garanta que a condição do `while` um dia vire falsa!\n\n## Acumulando resultados\n\n```python\nsoma = 0\nfor n in [10, 20, 30]:\n    soma = soma + n\nprint(soma)   # 60\n```",
+          "exercises": [
+            {
+              "position": 0,
+              "prompt": "Use um loop para somar todos os números de 1 até 100 (inclusive) e guarde o resultado na variável `soma`.",
+              "starter_code": "soma = 0\n# use um for com range\n",
+              "test_code": "assert 'soma' in dir(), 'Crie a variável soma'\nassert soma == 5050, f'A soma de 1 a 100 é 5050, mas ficou {soma!r}'",
+              "solution": "soma = 0\nfor n in range(1, 101):\n    soma = soma + n"
+            }
+          ]
+        },
+        {
+          "slug": "comprehensions",
+          "title": "Comprehensions",
+          "position": 2,
+          "lesson_md": "# Comprehensions\n\nUma *list comprehension* é uma forma curta e elegante de **criar uma lista a partir de outra**.\n\n## A forma longa vs. a curta\n\n```python\n# Forma longa\nquadrados = []\nfor n in range(1, 6):\n    quadrados.append(n * n)\n\n# Mesma coisa, com comprehension\nquadrados = [n * n for n in range(1, 6)]\n# [1, 4, 9, 16, 25]\n```\n\nLeia assim: *\"`n * n` para cada `n` em `range(1, 6)`\"*.\n\n## Com filtro (if)\n\n```python\npares = [n for n in range(10) if n % 2 == 0]\n# [0, 2, 4, 6, 8]\n```\n\n## Transformando textos\n\n```python\nnomes = [\"ana\", \"bia\", \"caio\"]\nmaiusculas = [nome.upper() for nome in nomes]\n# ['ANA', 'BIA', 'CAIO']\n```\n\n> 💡 Comprehensions deixam o código mais limpo, mas se ficar difícil de ler, um `for` normal está ótimo também.",
+          "exercises": [
+            {
+              "position": 0,
+              "prompt": "Use uma list comprehension para criar a lista `dobros` com o dobro de cada número da lista `numeros`.",
+              "starter_code": "numeros = [1, 2, 3, 4, 5]\n# crie dobros com uma comprehension\n",
+              "test_code": "assert 'dobros' in dir(), 'Crie a lista dobros'\nassert dobros == [2, 4, 6, 8, 10], f'dobros ficou: {dobros!r}'",
+              "solution": "numeros = [1, 2, 3, 4, 5]\ndobros = [n * 2 for n in numeros]"
+            },
+            {
+              "position": 1,
+              "prompt": "Use uma comprehension com filtro para criar `multiplos_de_3` com os números de 1 a 30 que são divisíveis por 3.",
+              "starter_code": "# crie multiplos_de_3\n",
+              "test_code": "assert 'multiplos_de_3' in dir(), 'Crie a lista multiplos_de_3'\nassert multiplos_de_3 == [3, 6, 9, 12, 15, 18, 21, 24, 27, 30], f'ficou: {multiplos_de_3!r}'",
+              "solution": "multiplos_de_3 = [n for n in range(1, 31) if n % 3 == 0]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "organizando-o-codigo",
+      "title": "Módulo 4 — Organizando o código",
+      "summary": "Deixar o código reutilizável e robusto: funções, tratamento de erros e módulos.",
+      "position": 4,
+      "topics": [
+        {
+          "slug": "funcoes",
+          "title": "Funções",
+          "position": 0,
+          "lesson_md": "# Funções\n\nUma **função** é um bloco de código com nome que você pode **reutilizar**. Em vez de repetir as mesmas linhas, você define uma vez e chama quantas vezes quiser.\n\n## Definindo e chamando\n\n```python\ndef saudacao(nome):\n    return f\"Olá, {nome}!\"\n\nprint(saudacao(\"Ana\"))   # Olá, Ana!\nprint(saudacao(\"Caio\"))  # Olá, Caio!\n```\n\n- `def` inicia a definição.\n- `nome` é um **parâmetro** (entrada).\n- `return` devolve um **resultado**.\n\n## Vários parâmetros e valor padrão\n\n```python\ndef somar(a, b):\n    return a + b\n\nsomar(2, 3)   # 5\n\ndef potencia(base, expoente=2):  # expoente padrão = 2\n    return base ** expoente\n\npotencia(5)      # 25\npotencia(2, 3)   # 8\n```\n\n> 💡 Funções deixam o código organizado, legível e sem repetição. Use nomes que digam o que a função faz.",
+          "exercises": [
+            {
+              "position": 0,
+              "prompt": "Escreva uma função chamada `area_retangulo` que recebe `largura` e `altura` e **retorna** a área (largura × altura).",
+              "starter_code": "def area_retangulo(largura, altura):\n    # complete a função\n    pass\n",
+              "test_code": "assert 'area_retangulo' in dir(), 'Defina a função area_retangulo'\nassert area_retangulo(3, 4) == 12, 'area_retangulo(3, 4) deveria ser 12'\nassert area_retangulo(5, 2) == 10, 'area_retangulo(5, 2) deveria ser 10'",
+              "solution": "def area_retangulo(largura, altura):\n    return largura * altura"
+            },
+            {
+              "position": 1,
+              "prompt": "Escreva uma função `eh_par` que recebe um número e retorna `True` se ele for par e `False` caso contrário.",
+              "starter_code": "def eh_par(numero):\n    pass\n",
+              "test_code": "assert eh_par(4) == True, 'eh_par(4) deveria ser True'\nassert eh_par(7) == False, 'eh_par(7) deveria ser False'\nassert eh_par(0) == True, 'eh_par(0) deveria ser True'",
+              "solution": "def eh_par(numero):\n    return numero % 2 == 0"
+            }
+          ]
+        },
+        {
+          "slug": "tratamento-de-erros",
+          "title": "Tratamento de erros (try / except)",
+          "position": 1,
+          "lesson_md": "# Tratamento de erros (try / except)\n\nÀs vezes algo dá errado: dividir por zero, converter um texto inválido em número... Sem tratamento, o programa **quebra**. Com `try`/`except`, você lida com o erro de forma elegante.\n\n```python\ntry:\n    numero = int(\"abc\")   # isso causa um erro\nexcept ValueError:\n    print(\"Texto inválido!\")\n```\n\nO Python tenta executar o bloco do `try`. Se der erro, pula para o `except`.\n\n## Erros comuns\n\n- `ValueError` — valor inadequado (`int(\"abc\")`)\n- `ZeroDivisionError` — divisão por zero (`10 / 0`)\n- `KeyError` — chave inexistente num dicionário\n- `IndexError` — índice fora de uma lista\n\n## Exemplo prático\n\n```python\ndef dividir(a, b):\n    try:\n        return a / b\n    except ZeroDivisionError:\n        return \"Não dá para dividir por zero\"\n\ndividir(10, 2)   # 5.0\ndividir(10, 0)   # \"Não dá para dividir por zero\"\n```\n\n> 💡 Trate apenas os erros que você sabe como resolver. Capturar tudo \"no escuro\" pode esconder bugs.",
+          "exercises": [
+            {
+              "position": 0,
+              "prompt": "Escreva a função `dividir(a, b)` que retorna `a / b`, mas se `b` for zero, retorna o texto `\"erro\"` (em vez de quebrar). Use try/except.",
+              "starter_code": "def dividir(a, b):\n    pass\n",
+              "test_code": "assert dividir(10, 2) == 5.0, 'dividir(10, 2) deveria ser 5.0'\nassert dividir(9, 3) == 3.0, 'dividir(9, 3) deveria ser 3.0'\nassert dividir(5, 0) == 'erro', 'dividir(5, 0) deveria retornar \\'erro\\''",
+              "solution": "def dividir(a, b):\n    try:\n        return a / b\n    except ZeroDivisionError:\n        return \"erro\""
+            }
+          ]
+        },
+        {
+          "slug": "modulos-e-imports",
+          "title": "Módulos e imports",
+          "position": 2,
+          "lesson_md": "# Módulos e imports\n\nVocê não precisa escrever tudo do zero. O Python vem com uma **biblioteca padrão** cheia de ferramentas prontas — e você acessa com `import`.\n\n## Importando um módulo\n\n```python\nimport math\n\nmath.sqrt(16)   # 4.0  (raiz quadrada)\nmath.pi          # 3.14159...\n```\n\n## Importando coisas específicas\n\n```python\nfrom random import randint\n\nrandint(1, 6)   # um número aleatório de 1 a 6 (como um dado)\n```\n\n## Alguns módulos úteis da biblioteca padrão\n\n- `math` — funções matemáticas\n- `random` — números aleatórios\n- `datetime` — datas e horas\n- `json` — ler/escrever dados em JSON\n\n## E muito mais além da padrão\n\nA comunidade Python tem **centenas de milhares** de bibliotecas (instaláveis com `pip`): para web, dados, IA, jogos... Isso é parte do que torna o Python tão poderoso.\n\n> 🎓 Parabéns! Você passou pelos fundamentos. A partir daqui, o caminho é praticar construindo projetos — e explorar a área que mais te empolgar.",
+          "exercises": [
+            {
+              "position": 0,
+              "prompt": "Importe o módulo `math` e use `math.sqrt` para calcular a raiz quadrada de 144, guardando o resultado em `raiz`.",
+              "starter_code": "# importe math e calcule a raiz quadrada de 144\n",
+              "test_code": "assert 'raiz' in dir(), 'Crie a variável raiz'\nassert raiz == 12.0, f'raiz deveria ser 12.0, mas é {raiz!r}'",
+              "solution": "import math\nraiz = math.sqrt(144)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

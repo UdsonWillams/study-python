@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+
+{% block title %}{{ topic.title }} — Python do Zero{% endblock %}
+
+{% block head %}
+<!-- Markdown -->
+<script src="https://cdn.jsdelivr.net/npm/marked@4.3.0/marked.min.js"></script>
+<!-- CodeMirror (editor) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/codemirror.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/theme/material-darker.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/codemirror.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/mode/python/python.min.js"></script>
+<!-- Pyodide -->
+<script src="https://cdn.jsdelivr.net/pyodide/v0.26.2/full/pyodide.js"></script>
+{% endblock %}
+
+{% block content %}
+<nav class="breadcrumb">
+  <a href="/">Roadmap</a> <span>/</span> {{ module.title }}
+</nav>
+
+<article class="lesson">
+  <div id="lesson-content" class="markdown-body"></div>
+  <script id="lesson-md" type="text/plain">{{ topic.lesson_md | safe }}</script>
+</article>
+
+{% if topic.exercises %}
+<section class="exercises">
+  <h2>Exercícios</h2>
+  <p id="pyodide-status" class="pyodide-status">⏳ Preparando o ambiente Python…</p>
+
+  {% for ex in topic.exercises %}
+  <div class="exercise" data-exercise-id="{{ ex.id }}">
+    <div class="exercise-prompt markdown-body" data-prompt></div>
+    <script type="text/plain" data-prompt-md>{{ ex.prompt | safe }}</script>
+
+    <textarea class="code-editor">{{ ex.starter_code }}</textarea>
+
+    <div class="exercise-actions">
+      <button class="btn btn-run" data-run>▶ Verificar</button>
+      <button class="btn btn-ghost" data-solution>Ver solução</button>
+    </div>
+
+    <pre class="output" data-output hidden></pre>
+    <script type="text/plain" data-test-code>{{ ex.test_code | safe }}</script>
+    <script type="text/plain" data-solution-code>{{ ex.solution | safe }}</script>
+  </div>
+  {% endfor %}
+</section>
+{% endif %}
+
+<section class="topic-footer">
+  <button id="complete-btn" class="btn btn-primary {% if is_done %}is-done{% endif %}"
+          data-topic-id="{{ topic.id }}"
+          data-has-exercises="{{ 'true' if topic.exercises else 'false' }}">
+    {% if is_done %}✓ Concluído{% elif topic.exercises %}Conclua os exercícios para liberar{% else %}Marcar como lido{% endif %}
+  </button>
+
+  <div class="nav-buttons">
+    {% if prev_topic %}<a class="btn btn-ghost" href="/topic/{{ prev_topic.slug }}">← Anterior</a>{% endif %}
+    {% if next_topic %}<a class="btn btn-ghost" href="/topic/{{ next_topic.slug }}">Próximo →</a>{% endif %}
+  </div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script src="/static/js/progress.js"></script>
+<script src="/static/js/runner.js"></script>
+{% endblock %}
